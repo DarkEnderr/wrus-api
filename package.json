@@ -1,41 +1,22 @@
 {
-    "name": "wrus-api",
-    "version": "2.5.3",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "license": "MIT",
-    "author": {
-        "name": "wrus-api"
-    },
-    "repository": {
-        "url": "https://github.com/DarkEnderr/wrus-api"
-    },
-    "homepage": "https://DarkEnderr.github.io/wrus-api",
-    "engines": {
-        "node": ">=12.x.x"
-    },
-    "scripts": {
-        "build": "tsc",
-        "docs": "typedoc src/index.ts --excludePrivate",
-        "test": "ts-node tests/index.ts"
-    },
-    "dependencies": {
-        "axios": "^0.21.1",
-        "discord.js": "^12.5.3",
-        "jsdom": "^16.7.0",
-        "sourcebin": "^4.2.5"
-    },
-    "devDependencies": {
-        "@types/jsdom": "^16.2.13",
-        "cz-conventional-changelog": "^3.3.0",
-        "mongoose": "^6.0.9",
-        "ts-node": "^10.2.0",
-        "typedoc": "^0.21.2",
-        "typescript": "^4.3.5"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
-    }
+  "name": "wrus-api",
+  "version": "6.3.1",
+  "description": "A simple api to configure and enhance the ways on coding your discord bot. Compatible with discord.js v12 but it should also work on older versions. Variety of different usages for this api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkEnderr/wrus-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkEnderr/wrus-api/issues"
+  },
+  "homepage": "https://github.com/DarkEnderr/wrus-api#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
 }
