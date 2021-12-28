@@ -2,11 +2,14 @@
 
 Api discord.jsv12
 
+<<<<<<< HEAD
 <div align="center">
   <p>
     <a href="https://nodei.co/npm/wrus-api
 /"><img src="https://nodei.co/npm/wrus-api.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
+=======
+</div>
 </div>
 
 ---
@@ -26,11 +29,12 @@ Api discord.jsv12
 First install [Node.js](http://nodejs.org/). Then:
 
 ```sh
-$ npm install reconlx
+$ npm install wrus-api
 ```
 
 ## 🛠 Usages (Click on it for more info on how to use it)
 
+<<<<<<< HEAD
 -   [oldReconDB](https://www.npmjs.com/package/reconlx#oldReconDB) - the old way of storing data in mongodb
 -   [reconDB](https://www.npmjs.com/package/reconlx/#reconDB) - the newest way of storing data in mongodb with cache
 -   [DaysAgo](https://www.npmjs.com/package/reconlx#daysago) - check how many days ago was it using date format
@@ -56,7 +60,7 @@ import recon from "wrus-api";
 
 ## 🙋‍♂️ Support
 
-Feel free to join the support discord server -> https://discord.gg/xCCpfth
+Feel free to join the support discord server -> https://discord.gg/Kp6QqtHw
 
 ---
 
@@ -360,9 +364,19 @@ module.exports = giveaway;
  * @description Get data on current giveaways hosted by the bot
  */
 ```
+=======
+-   [Giveaways]) - Easy giveaway system with mongodb as the database
+-   [reconDB] - Storing data into mongodb with easy functions (`.get`, `.set`, `.delete`, `.push`), data are cached for faster response times.
+-   [ModMail] - Easy way to setup a modmail with awesome customisations
+-   [starboard] - A starboard system which doesn't fetch 100 messages everytime someone reacts lmfao
+-   [pagination] - Easy and flexible way to paginate embeds with buttons!
+-   [generateTranscript] - Easily generate a discord like transcript with an array of _[messages]_
+-   [chatBot] - An easy chatbot without api key
+>>>>>>> f73ddf3971c47a620ea69e0c6fa1bb89792482fb
 
 ### removeCachedGiveaways
 
+<<<<<<< HEAD
 ```js
 /**
  * @method
@@ -371,3 +385,6 @@ module.exports = giveaway;
  * @description Removes (activated = false) giveaways
  */
 ```
+=======
+ps: if you are looking for the old features, use `npm i wrus-api` instead!
+>>>>>>> f73ddf3971c47a620ea69e0c6fa1bb89792482fb

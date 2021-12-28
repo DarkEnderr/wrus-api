@@ -1,6 +1,6 @@
 {
   "name": "wrus-api",
-  "version": "6.3.1",
+  "version": "6.3.4",
   "description": "A simple api to configure and enhance the ways on coding your discord bot. Compatible with discord.js v12 but it should also work on older versions. Variety of different usages for this api.",
   "main": "index.js",
   "scripts": {
