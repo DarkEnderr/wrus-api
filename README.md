@@ -8,6 +8,7 @@ Api discord.jsv12
     <a href="https://nodei.co/npm/wrus-api
 /"><img src="https://nodei.co/npm/wrus-api.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
+    <a href="https://nodei.co/npm/wrus-api/"><img src="https://img.shields.io/npm/dt/wrus-api.svg" alt="NPM download" /></a>
 =======
 </div>
 </div>
